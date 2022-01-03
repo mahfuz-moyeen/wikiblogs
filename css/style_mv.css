@@ -11,6 +11,7 @@
         width: 100%;
         height: auto;
         border-radius: 20px;
+        margin-top: 20px;
          }
          .container_ariana_head h2{
             text-align: center;
@@ -26,7 +27,8 @@
         width: 100%;
         height: auto;
         border-radius: 20px;
-        margin: 0px;
+        margin-top: 20px;
+        
          }
          .container_alan_head h2{
             text-align: center;

@@ -1,15 +1,16 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 body{
     max-width: 100%;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(26, 25, 25);
 }
-
 .header{
     display: block;
     background-color: rgb(17, 17, 17);
-    
     color: rgb(255, 155, 5);
     padding: 10px;
    text-align: center;
@@ -98,8 +99,6 @@ a:hover{
   
   .container_alan_head img{
       width: 50%;
-      margin-left: 25%;
-      margin-right: 25%;
     border-radius: 20px;
  box-shadow: 0em 0 1em rgb(255, 155, 5);
   }
