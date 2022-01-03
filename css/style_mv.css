@@ -1,0 +1,42 @@
+
+@media only screen and (max-width: 800px){
+    .read_more a{
+        display: block;
+   }
+
+   /* ariana */
+
+    .container_ariana_head img{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+         }
+         .container_ariana_head h2{
+            text-align: center;
+        }
+        .container_ariana > h4, h5 {
+            text-align: center;
+         }
+
+
+         /* alan */
+         .container_alan_head img{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin: 0px;
+         }
+         .container_alan_head h2{
+            text-align: center;
+        }
+        .container_alan > h4, h5 {
+            text-align: center;
+         }
+         #comment{
+             width: 300px;
+            border-radius: 10px;
+        }
+
+       }
