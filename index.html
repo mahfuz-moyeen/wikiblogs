@@ -10,16 +10,21 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style_mv.css">
 
+
+
 </head>
 
 <body>
     <div class="header">
         <h1>Welcome to <span id="wikiblogs">WikiBlogs</span></h1>
+
+        <button onclick="myFunction()">Dark mode</button>
+
     </div>
     <div class="container_ariana">
         <div class="container_ariana_head">
             <h2>Ariana Grande</h2>
-            <h5><i>From Wikipedia, the free encyclopedia</i></h5>
+            <h5 ><i>From Wikipedia, the free encyclopedia</i></h5>
             <div id="ariana_img"><img src="img/photo/ariana.jpg" alt="Ariana Grande"></div>
         </div>
 
@@ -39,7 +44,7 @@
             <li><a href="https://en.wikipedia.org/wiki/Snowflake,_the_White_Gorilla">Snowflake, the White Gorilla </a>
                 (2011)</li>
             <li><a href="https://en.wikipedia.org/wiki/Underdogs_(2013_Argentine_film)">Underdogs </a>(2016)</li>
-            <li><a href="https://en.wikipedia.org/wiki/Zoolander_2">Zoolander 2 </a>(2016)</li>
+            <li><a  href="https://en.wikipedia.org/wiki/Zoolander_2">Zoolander 2 </a>(2016)</li>
             <li><a href="https://en.wikipedia.org/wiki/Mariah_Carey%27s_Magical_Christmas_Special">Mariah Carey's
                     Magical Christmas Special </a>(2020)</li>
             <li><a href="https://en.wikipedia.org/wiki/Ariana_Grande:_Excuse_Me,_I_Love_You"> Ariana Grande: Excuse Me,
@@ -54,7 +59,7 @@
             </li>
             <li><a href="https://en.wikipedia.org/wiki/Dangerous_Woman">Dangerous Woman</a>(2016)</li>
             <li><a href="https://en.wikipedia.org/wiki/Sweetener_(album)">Sweetener</a>(2018)</li>
-            <li><a href="https://en.wikipedia.org/wiki/Thank_U,_Next"> Thank U, Next</a>(2019)</li>
+            <li><a  href="https://en.wikipedia.org/wiki/Thank_U,_Next"> Thank U, Next</a>(2019)</li>
             <li><a href="https://en.wikipedia.org/wiki/Positions_(album)">Positions</a>(2020)</li>
         </ol>
         </p>
@@ -97,9 +102,9 @@
                 <ol>
 
                     <li><a href="https://en.wikipedia.org/wiki/Rihanna">Rihanna</a>- <a
-                            href="https://en.wikipedia.org/wiki/Anti_World_Tour">Anti World Tour</a>(2016)</li>
+                     href="https://en.wikipedia.org/wiki/Anti_World_Tour">Anti World Tour</a>(2016)</li>
                     <li><a href="https://en.wikipedia.org/wiki/Justin_Bieber">Justin Bieber</a>-<a
-                            href="https://en.wikipedia.org/wiki/Purpose_World_Tour">Purpose World Tour</a> (2017)</li>
+                       href="https://en.wikipedia.org/wiki/Purpose_World_Tour">Purpose World Tour</a> (2017)</li>
                     <li><a href="https://en.wikipedia.org/wiki/Martin_Garrix">Martin Garrix</a>- Thursdays at Ushuaïa
                     </li>
                 </ol>
@@ -139,6 +144,14 @@
         </form>
 
     </div>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+           var element = document.getElementsByClassName("text-color");
+           element.classList.toggle("text-clr");
+        }
+        </script>
 </body>
 
 </html>

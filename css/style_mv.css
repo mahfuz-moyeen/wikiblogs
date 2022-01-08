@@ -40,5 +40,9 @@
              width: 300px;
             border-radius: 10px;
         }
+        #file, #comment{
+            width: 100%;
+            margin: auto;
+        }
 
        }
